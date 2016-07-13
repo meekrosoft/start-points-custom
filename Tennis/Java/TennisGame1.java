@@ -1,5 +1,5 @@
 
-public class TennisGame1 {
+public class TennisGame1 implements TennisGame {
     
     private int m_score1 = 0;
     private int m_score2 = 0;
@@ -33,9 +33,6 @@ public class TennisGame1 {
                     break;
                 case 2:
                         score = "Thirty-All";
-                    break;
-                case 3:
-                        score = "Forty-All";
                     break;
                 default:
                         score = "Deuce";

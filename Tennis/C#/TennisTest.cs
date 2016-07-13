@@ -1,4 +1,3 @@
-
 using System;
 using NUnit.Framework;
 
@@ -7,7 +6,7 @@ namespace Tennis
   [TestFixture(0, 0, "Love-All")]
   [TestFixture( 1, 1, "Fifteen-All" )]
   [TestFixture( 2, 2, "Thirty-All")]
-  [TestFixture( 3, 3, "Forty-All")]
+  [TestFixture( 3, 3, "Deuce")]
   [TestFixture( 4, 4, "Deuce")]
   [TestFixture( 1, 0, "Fifteen-Love")]
   [TestFixture( 0, 1, "Love-Fifteen")]
@@ -43,23 +42,20 @@ namespace Tennis
     private int player2Score;
     private string expectedScore;
 
-    public TennisTest(int player1Score, int player2Score, string expectedScore) : base()
-    {
+    public TennisTest(int player1Score, int player2Score, string expectedScore) {
       this.player1Score = player1Score;
       this.player2Score = player2Score;
       this.expectedScore = expectedScore;
     }
 
     [Test]
-    public void checkTennisGame1() 
-    {
+    public void checkTennisGame1() {
       TennisGame1 game = new TennisGame1("player1", "player2");
       checkAllScores(game);
     }
 
     [Test]
-    public void checkTennisGame2() 
-    {
+    public void checkTennisGame2() {
       TennisGame2 game = new TennisGame2("player1", "player2");
       checkAllScores(game);
     }
@@ -83,7 +79,7 @@ namespace Tennis
 
   }
 
-  [TestFixture]
+  [TestFixture()]
   public class ExampleGameTennisTest
   {
     public void RealisticTennisGame(TennisGame game)
@@ -95,19 +91,19 @@ namespace Tennis
         Assert.AreEqual(expected_scores[i], game.GetScore());
       }
     }
-    [Test]
+    [Test()]
     public void CheckGame1()
     {
       TennisGame1 game = new TennisGame1("player1", "player2");
       RealisticTennisGame(game);
     }
-    [Test]
+    [Test()]
     public void CheckGame2()
     {
       TennisGame2 game = new TennisGame2("player1", "player2");
       RealisticTennisGame(game);
     }
-    [Test]
+    [Test()]
     public void CheckGame3()
     {
       TennisGame3 game = new TennisGame3("player1", "player2");

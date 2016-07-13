@@ -1,4 +1,3 @@
-
 using System;
 using NUnit.Framework;
 
@@ -42,9 +41,6 @@ namespace Tennis
         case 2:
           score = "Thirty-All";
           break;
-        case 3:
-          score = "Forty-All";
-          break;
         default:
           score = "Deuce";
           break;
@@ -87,3 +83,4 @@ namespace Tennis
   }
 
 }
+
