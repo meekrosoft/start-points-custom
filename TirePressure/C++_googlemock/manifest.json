@@ -1,0 +1,18 @@
+{
+  "visible_filenames": [
+    "Alarm.hpp",
+    "Alarm.cpp",
+    "Alarm.tests.cpp",
+    "PressureSensor.cpp",
+    "PressureSensor.hpp",
+    "Sensor.hpp",
+    "StubSensor.hpp",
+    "instructions",
+    "makefile",
+    "cyber-dojo.sh"
+  ],
+  "filename_extension" : ".cpp",
+  "display_name": "Tire Pressure, C++ (g++) GoogleMock",
+  "unit_test_framework": "GoogleMock",
+  "image_name": "cyberdojofoundation/gpp_googlemock"
+}
