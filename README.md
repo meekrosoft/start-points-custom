@@ -5,8 +5,6 @@ This fork contains Emily Bache's custom starting points for [cyber-dojo](https:/
 
 You can specify it as follows when starting your cyber-dojo server:
 
-```
 ./cyber-dojo start-point help
 ./cyber-dojo start-point create --name=emily --git=https://github.com/emilybache/start-points-custom.git
 ./cyber-dojo up --custom=emily
-```
