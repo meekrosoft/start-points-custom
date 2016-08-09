@@ -1,0 +1,13 @@
+
+This exercise builds on the original "HtmlTextConverter" problem, by showing you how to 
+use a Fake to test it. You want to write the unit tests for the UnicodeFileToHtmTextConverter class,
+but without writing many tests that all open a real file. Instead you can write tests using 
+a "fake" file, that is, a 'std::stringstream', that is all in memory. 
+
+The UnicodeFileToHtmTextConverter class is designed to reformat a 
+plain text file for display in a browser.
+
+Look at the example in "StreamConverter.tests.cpp", and create some more similar tests.
+
+Instead of std::stringstream, could you use GoogleMock to create a Stub file? Would that be
+easier or harder?

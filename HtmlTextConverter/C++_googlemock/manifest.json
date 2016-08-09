@@ -1,0 +1,19 @@
+{
+  "visible_filenames": [
+    "foo.txt",
+    "HtmlTextConverter.cpp",
+    "HtmlTextConverter.hpp",
+    "HtmlTextConverter.tests.cpp",
+    "StreamConverter.cpp",
+    "StreamConverter.hpp",
+    "StreamConverter.tests.cpp",
+    "StringEscapeUtils.hpp",
+    "instructions",
+    "makefile",
+    "cyber-dojo.sh"
+  ],
+  "filename_extension" : ".cpp",
+  "display_name": "Html Text Converter, C++ (g++) GoogleMock",
+  "unit_test_framework": "GoogleMock",
+  "image_name": "cyberdojofoundation/gpp_googlemock"
+}
