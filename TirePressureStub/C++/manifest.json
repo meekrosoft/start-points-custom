@@ -12,7 +12,7 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cpp",
-  "display_name": "Tire Pressure, C++ (g++) GoogleMock",
+  "display_name": "Tire Pressure, Stub, C++ (g++) GoogleMock",
   "image_name": "cyberdojofoundation/gpp_googlemock",
   "red_amber_green" : [
     "lambda { |output|",
