@@ -8,12 +8,12 @@
     "cyber-dojo.sh"
   ],
   "filename_extension" : ".cpp",
-  "display_name": "Gilded Rose, C++ (g++) assert",
-  "image_name": "cyberdojofoundation/gpp_assert",
+  "display_name": "Gilded Rose, C++ (g++), GoogleTest",
+  "image_name": "cyberdojofoundation/gpp_googletest",
   "red_amber_green" : [
     "lambda { |output|",
-    "  return :red   if /(.*)Assertion(.*)failed./.match(output)",
-    "  return :green if /(All|\\d*) tests passed/.match(output)",
+    "  return :red   if /\\[  FAILED  \\]/.match(output)",
+    "  return :green if /\\[  PASSED  \\]/.match(output)",
     "  return :amber",
     "}"
   ]
