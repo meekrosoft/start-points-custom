@@ -9,8 +9,8 @@ namespace {
 TEST(Alarm, Foobar)
 {
     StubSensor stubSensor;
-    EXPECT_CALL(stubSensor, popNextPressurePsiValue())
-                .WillOnce(Return(16));
+    ON_CALL(stubSensor, popNextPressurePsiValue())
+                .WillByDefault(Return(16));
 
     Alarm alarm(&stubSensor);
     alarm.check();
