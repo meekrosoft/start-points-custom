@@ -8,7 +8,7 @@ namespace {
 
 TEST(Alarm, Foobar)
 {
-    StubSensor stubSensor;
+    NiceMock<StubSensor> stubSensor;
     ON_CALL(stubSensor, popNextPressurePsiValue())
                 .WillByDefault(Return(16));
 
