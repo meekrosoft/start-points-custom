@@ -3,7 +3,7 @@
     "cyber-dojo.sh",
     "diamond.py",
     "instructions",
-    "cyber-dojo.sh"
+    "test_diamond.py"
   ],
   "filename_extension" : ".py",
   "tab_size": 4,

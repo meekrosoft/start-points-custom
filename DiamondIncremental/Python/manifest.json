@@ -3,7 +3,6 @@
     "cyber-dojo.sh",
     "diamond.py",
     "instructions",
-    "cyber-dojo.sh",
     "test_diamond_incremental.py"
   ],
   "filename_extension" : ".py",
