@@ -1,0 +1,36 @@
+These test cases can be used to test-drive a solution to the diamond kata, in an incremental manner.
+There is a description of the Diamond Kata below.
+
+Instructions:
+1. Make the first test case for Diamond A pass
+2. change the 'ignore_' to 'test_' for the next test case. Make it pass.
+3. Uncomment the next line of the test case. Make it pass
+4. When all the lines of code in the test case are passing, continue to the next test case.
+5. When all the test cases are uncommented and passing, you should have a full working solution.
+
+Diamond Kata
+------------
+
+Given a letter print a diamond starting with 'A'
+with the supplied letter at the widest point.
+
+For example: print-diamond 'E' prints
+
+    A
+   B B
+  C   C
+ D     D
+E       E
+ D     D
+  C   C
+   B B
+    A
+
+For example: print-diamond 'C' prints
+
+  A
+ B B
+C   C
+ B B
+  A
+  

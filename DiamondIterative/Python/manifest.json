@@ -1,0 +1,20 @@
+{
+  "visible_filenames": [
+    "cyber-dojo.sh",
+    "diamond.py",
+    "instructions",
+    "cyber-dojo.sh",
+    "test_diamond_iterative.py"
+  ],
+  "filename_extension" : ".py",
+  "tab_size": 4,
+  "display_name": "Diamond (Iterative), Python (pytest)",
+  "image_name": "cyberdojofoundation/python_pytest",
+  "red_amber_green" : [
+    "lambda { |output|",
+    "  return :red   if /=== FAILURES ===/.match(output)",
+    "  return :green if /=== (\\d*) passed/.match(output)",
+    "  return :amber",
+    "}"
+  ]
+}
