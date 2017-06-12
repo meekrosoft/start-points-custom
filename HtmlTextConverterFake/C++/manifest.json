@@ -14,12 +14,5 @@
   ],
   "filename_extension" : ".cpp",
   "display_name": "Html Text Converter, C++ (g++) GoogleMock",
-  "image_name": "cyberdojofoundation/gpp_googlemock",
-  "red_amber_green" : [
-    "lambda { |output|",
-    "  return :red   if /\\[  FAILED  \\]/.match(output)",
-    "  return :green if /\\[  PASSED  \\]/.match(output)",
-    "  return :amber",
-    "}"
-  ]
+  "image_name": "cyberdojofoundation/gpp_googlemock"
 }

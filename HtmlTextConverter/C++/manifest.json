@@ -10,12 +10,5 @@
   ],
   "filename_extension" : ".cpp",
   "display_name": "Html Text Converter, C++ (g++) GoogleTest",
-  "image_name": "cyberdojofoundation/gpp_googletest",
-  "red_amber_green" : [
-    "lambda { |output|",
-    "  return :red   if /\\[  FAILED  \\]/.match(output)",
-    "  return :green if /\\[  PASSED  \\]/.match(output)",
-    "  return :amber",
-    "}"
-  ]
+  "image_name": "cyberdojofoundation/gpp_googletest"
 }
