@@ -63,3 +63,7 @@ class Shop {
     return this.items;
   }
 }
+
+module.exports.Shop = Shop;
+module.exports.Item = Item;
+
