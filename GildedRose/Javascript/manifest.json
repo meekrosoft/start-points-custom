@@ -1,6 +1,6 @@
 {
   "visible_filenames": [
-    ".jsintrc",
+    ".jshintrc",
     "gilded_rose.js",
     "gilded_rose_spec.js",
     "jasmine.json",
@@ -10,7 +10,7 @@
 
   "filename_extension" : ".js",
 
-  "display_name": "Gilded Rose Refactoring Kata, Javascript, Jasmine",
+  "display_name": "Gilded Rose Refactoring Kata, Javascript Jasmine",
 
   "image_name": "cyberdojofoundation/javascript_jasmine"
 }
