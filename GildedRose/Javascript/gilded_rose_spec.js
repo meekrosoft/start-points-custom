@@ -1,13 +1,12 @@
 'use strict';
 
-let Item, Shop = require('./gilded_rose.js');
-
+var gr = require('./gilded_rose.js');
 
 describe("Gilded Rose", function() {
 
   it("should foo", function() {
-    const gilgedRose = new Shop([ new Item("foo", 0, 0) ]);
-    const items = gilgedRose.updateQuality();
+    const gildedRose = new gr.Shop([ new gr.Item("foo", 0, 0) ]);
+    const items = gildedRose.updateQuality();
     expect(items[0].name).toEqual("fixme");
   });
 
