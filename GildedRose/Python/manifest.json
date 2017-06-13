@@ -1,0 +1,14 @@
+{
+  "visible_filenames": [
+    "gilded_rose.py",
+    "test_gilded_rose.py",
+    "instructions",
+    "cyber-dojo.sh"
+  ],
+
+  "filename_extension" : ".py",
+
+  "display_name": "Gilded Rose Refactoring Kata, Python unitttest",
+
+  "image_name": "cyberdojofoundation/python_unittest"
+}

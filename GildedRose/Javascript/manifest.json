@@ -1,0 +1,16 @@
+{
+  "visible_filenames": [
+    ".jsintrc",
+    "gilded_rose.js",
+    "gilded_rose_spec.js",
+    "jasmine.json",
+    "instructions",
+    "cyber-dojo.sh"
+  ],
+
+  "filename_extension" : ".js",
+
+  "display_name": "Gilded Rose Refactoring Kata, Javascript, Jasmine",
+
+  "image_name": "cyberdojofoundation/javascript_jasmine"
+}
