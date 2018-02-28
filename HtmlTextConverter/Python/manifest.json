@@ -1,0 +1,14 @@
+{
+  "visible_filenames": [
+    "test_text_converter.py",
+    "text_converter.py",
+    "instructions",
+    "cyber-dojo.sh"
+  ],
+
+  "filename_extension" : ".py",
+
+  "display_name": "Html Text Converter, Python unitttest",
+
+  "image_name": "cyberdojofoundation/python_unittest"
+}
