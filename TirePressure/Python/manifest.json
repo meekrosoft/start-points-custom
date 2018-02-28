@@ -1,0 +1,15 @@
+{
+  "visible_filenames": [
+    "test_tire_pressure_monitoring.py",
+    "tire_pressure_monitoring.py",
+    "sensor.py",
+    "instructions",
+    "cyber-dojo.sh"
+  ],
+
+  "filename_extension" : ".py",
+
+  "display_name": "Tire Pressure Monitoring, Python unitttest",
+
+  "image_name": "cyberdojofoundation/python_unittest"
+}
