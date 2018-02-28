@@ -12,6 +12,6 @@ if __name__ == "__main__":
 
 	if len(sys.argv) > 1:
 		middle_letter = sys.argv[1][0]
-		print Diamond(middle_letter).print_diamond()
+		print(Diamond(middle_letter).print_diamond())
 	else:
-		print "please supply one argument: the char of the diamond middle"
+		print("please supply one argument: the char of the diamond middle")
