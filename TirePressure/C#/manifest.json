@@ -1,0 +1,14 @@
+{
+  "visible_filenames": [
+    "Alarm.cs",
+    "Sensor.cs",
+    "AlarmTest.cs",
+    "instructions",
+    "makefile",
+    "cyber-dojo.sh"
+  ],
+  "filename_extension" : ".cs",
+  "display_name": "Tire Pressure, C# NUnit",
+
+  "image_name": "cyberdojofoundation/csharp_nunit"
+}
