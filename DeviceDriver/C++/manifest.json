@@ -14,4 +14,5 @@
   "filename_extension" : ".cpp",
   "display_name": "Device Driver, C++ (g++) GoogleMock",
   "image_name": "cyberdojofoundation/gpp_googlemock"
+  "runner_choice": "stateless"
 }

@@ -14,5 +14,6 @@
   ],
   "filename_extension" : ".cpp",
   "display_name": "Html Text Converter, C++ (g++) GoogleMock",
-  "image_name": "cyberdojofoundation/gpp_googlemock"
+  "image_name": "cyberdojofoundation/gpp_googlemock",
+  "runner_choice":"stateless"
 }

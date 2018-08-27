@@ -8,5 +8,6 @@
   "filename_extension" : ".py",
   "tab_size": 4,
   "display_name": "Diamond (Iterative), Python (pytest)",
-  "image_name": "cyberdojofoundation/python_pytest"
+  "image_name": "cyberdojofoundation/python_pytest",
+  "runner_choice":"stateless"
 }

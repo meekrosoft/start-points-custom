@@ -12,5 +12,6 @@
   "filename_extension" : ".cpp",
   "display_name": "Tire Pressure, C++ (g++) GoogleTest",
 
-  "image_name": "cyberdojofoundation/gpp_googletest"
+  "image_name": "cyberdojofoundation/gpp_googletest",
+  "runner_choice":"stateless"
 }

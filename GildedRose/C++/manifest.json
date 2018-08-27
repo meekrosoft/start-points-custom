@@ -9,5 +9,6 @@
   ],
   "filename_extension" : ".cpp",
   "display_name": "Gilded Rose, C++ (g++) GoogleTest",
-  "image_name": "cyberdojofoundation/gpp_googletest"
+  "image_name": "cyberdojofoundation/gpp_googletest",
+  "runner_choice":"stateless"
 }
