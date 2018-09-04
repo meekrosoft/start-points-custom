@@ -1,14 +1,14 @@
 {
   "visible_filenames": [
-    "test_text_converter.py",
-    "text_converter.py",
+    "UnicodeFileToHtmlTextConverter.cs",
+    "UnicodeFileToHtmlTextConverterTest.cs",
     "instructions",
     "cyber-dojo.sh"
   ],
 
-  "filename_extension" : ".py",
+  "filename_extension" : ".cs",
 
-  "display_name": "Html Text Converter, Python unitttest",
+  "display_name": "Html Text Converter, C# NUnit",
 
-  "image_name": "cyberdojofoundation/python_unittest"
+  "image_name": "cyberdojofoundation/csharp_nunit"
 }
